@@ -33,8 +33,8 @@ The resulting files receive a `.min.js` extension, despite their original extens
 
 	JS_SOURCES_EXTRA = js/specific-v8.js
 
-**JS_MINIFIED_DEPS** - Defines which JS dependencies are already minified and must preceed all other files
-defined in `JS_SOURCES` in the resulting `.min.js` file. Example:
+**JS_MINIFIED_DEPS** - Defines which JS dependencies are already minified and must preceed all other files in the
+resulting `.min.js` file. Example:
 
 	JS_MINIFIED_DEPS = \
 		jquery-ui-1.8.6.custom/js/jquery-ui-1.8.6.custom.min.js \
